@@ -8,10 +8,10 @@
 
 > Membros do projeto:
 <p>
-  m.mg.r@hotmail.com
-  vvieira.eng@gmail.com
-  diogenesjunior.ti@gmail.com
-  jonac08no@gmail.com
-  pamelaguerreirolima@gmail.com
-  brunarennodon@gmail.com
+  m.mg.r@hotmail.com <br>
+  vvieira.eng@gmail.com <br>
+  diogenesjunior.ti@gmail.com <br>
+  jonac08no@gmail.com <br>
+  pamelaguerreirolima@gmail.com <br>
+  brunarennodon@gmail.com <br>
 </p>
