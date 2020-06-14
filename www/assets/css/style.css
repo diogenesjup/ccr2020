@@ -457,11 +457,11 @@ svg rect{
 .btn-primary:visited,
 .btn-primary:focus{
   border-radius: 0px;
-  background: #000;
-  color: #fff;
+  background: #FFED47;
+  color: #000;
   font-weight: 700;
   font-family: 'Muli', sans-serif;
-  border-color: #000;
+  border-color: #FFED47;
 }
 
 .btn-default,
@@ -1328,7 +1328,7 @@ p.the-check{
    font-size: 13px;
    line-height: 19px;
    margin-bottom: 6px;
-   padding-left: 33px;
+   padding-left: 0px;
 }
 
 
@@ -4262,7 +4262,7 @@ nav.menu-campanha ul li a i{
 
 .fakesplashcreen{
   position: fixed;
-  display: block;
+  display: none;
   left: 0;
   top: 0;
   width: 100%;
@@ -4276,6 +4276,19 @@ nav.menu-campanha ul li a i{
 }
 
 
+.voz{
+     position: fixed;
+    display: block;
+    left: 13px;
+    bottom: 62px;
+    z-index: 999;
+}
+
+
+.voz img {
+    width: 46px;
+    height: auto;
+}
 
 .better-search{
   position: fixed;
