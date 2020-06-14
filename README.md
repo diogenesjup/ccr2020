@@ -18,5 +18,5 @@
 
 > URL PWA:
 <p>
-  https://ccr2020.vercel.app/
+  https://servidorseguro.cloud/ccr2020/www
 </p>
