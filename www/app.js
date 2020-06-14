@@ -521,6 +521,28 @@ function carregarConteudo(){
    
    console.log("INICIANDO FUNÇÃO PARA CARREGAR CONTEÚDO INICIAL");
 
+   $(".loop-carregando").remove();
+
+                               // INICIAR STORIES DE CONTEÚDO
+                               initDemo();
+                               
+                               // INICIAR OS BANNERS
+                               var destaquesLoja = $('#loopBanners').owlCarousel({
+                                        loop:true,
+                                        margin:6,
+                                        items: 1.5,
+                                        autoplay: false,
+                                        center: true,
+                                        //navContainer: '.custom-nav-banner',
+                                        //autoplay:true,
+                                        //autoplayTimeout:6500,
+                                        //dotsContainer: '#carousel-custom-dots',
+                                        //autoplayHoverPause:true,
+                                        //animateIn: 'fadeIn', // add this
+                                        //animateOut: 'fadeOut', // and this
+                                        
+                                });
+
 }
 
 
