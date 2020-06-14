@@ -1,0 +1,8 @@
+RewriteEngine On
+
+<IfModule mod_rewrite.c>
+
+   RewriteRule v1/testeapi/?$ teste-api.php [NC]
+   RewriteRule v1/buscaConteudo/?$ buscaConteudo-locais.php [NC]
+   
+</IfModule>

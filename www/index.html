@@ -1,0 +1,370 @@
+<!--
+                                                                                                  ..%%::;X    .         
+t%%%   .  . .  ..tS ;. :%t8     ;t%S   . ..X %%t;: :%%S   t8.t; . .:ttS8 ..tt8 X 8.X :tS ;. .%t8 ::%t%S:; tt:;8 S   :%%S
+:.S 8    .     ..;;t ; :   8   :::% S%   8 .SS% ::S8   t.%  X;    :;;..;; :;:.::; .tS:  .%. ::. ::S:.   ....:: . .; t.  
+.%.. :     . .  .   8;.8 . @   %...::.S   ;;:;:XS;  X :@%.::% . . ;;;;;;%....:;;;S:..;S.:@ .;S:t;;S;;;;;t;;%;;t;t;::tS.:
+ ;:::8    .     :::.    .:.8 .: ::8S.:S..:;;S.     : ;;..;;8     S :;;;;;; . .;;;%   ..;..::X.;;;%:8 t:::t:8 :;:;;;ttS.:
+ .S:. :     . . :.:.:88X : 8 : ::.8% ::X.:;;%: .   %:;;;;;: 8     ;;;8:.;;;  .;;;t   :;;t;@%t;;t;;:8..:;:;  .:::@S %::;;
+  ::;:X .       ;.::8;.X ..X:S ::.  :;:.XS:;:S;%%t:S :;@tS:: :  :;;;. :;:;:; .:;;S   .;;tt  .;;:;::t:.:..:t :::.S ; ;t;;
+ ..X .:;  . .   ;.:.8t.% . 8t  :8X@@8 ;:X;.;;;S ::.8.t:; ;:ttS.:%::8S8:@ ;:X.::;:S.  .;;:S  .:;:S..S.%SS% t .::.St:@ t;;
+    SX::.     . ;S88%. t8%8%8888S  .;8@S8:t%%X.88: :S8.: .S8;88:%8;.   :@8S;..S8:;   .;8.:  :SS8SSX%St   @X8S8X8X. :%;;;
+           .           ...... .                                                    .                :tSXS:. .:  .       
+         .   .       ..        ..                                           .                         .   ...  .   .    
+ .                8St  SS: .:%%   X8:: S%%%%t;.   .                                .       .      . .   .    . . .   .  
+       .  . . . .S   8X t S8   SX   8;    8%% .%:                     .  . .     .       .      .     .    .           .
+  . .           :   8.:Xt;.S   8 XX..8 .:@.:  ::%  .  .             .        .     . .      .     .      .   .  .  . .  
+      . . .  .  S   8  :  .%  S8... .% :.   :;:8:    .  .         .   . .  .   .       .  .   .     .  .   .      .     
+  .               . @..:. .X   8.... 8.t;::;::X; .        .    .    .        .   .  .   .      . .   .   .    . .    .  
+    . .  . .    ; :  8X  S;8 :.SX   X% ;;S@%..%S tSS; . .   .    .     . .     .     .     . .     .        .      .   .
+  .          .  :;%X    8S:%88    @8 :.::8 S   St%S @        . .   .       .     . .   .  .     .     . .     .  .   .  
+#
+#`            
+#      TIME 365
+#      APLICATIVO NO TRECHO
+#      
+#      JUNHO DE 2020
+#
+#     “ESTAR OCUPADO NEM SEMPRE SIGNIFICA TRABALHO DE VERDADE. O OBJETIVO DE TODO TRABALHO É A PRODUÇÃO OU A REALIZAÇÃO E, PARA QUALQUER UM DESSES FINS, 
+#      DEVE HAVER PREVISÃO, SISTEMA,  
+#      PLANEJAMENTO, INTELIGÊNCIA E PROPÓSITO HONESTO, ALÉM DE TRANSPIRAÇÃO. PARECER FAZER NÃO É FAZER".
+#
+#
+-->
+<!DOCTYPE html>
+<html lang="pt-br"><head>
+<title>No Trecho - Time365</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+<meta name="theme-color" content="#FFED47">
+
+<!-- FAVICON -->
+<link rel="shortcut icon" href="assets/images/favicon.png">
+
+<!-- VIEWS -->
+<link type="text/css" rel="stylesheet" href="assets/css/jsview.css"/>
+
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css" media="all" />
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/sweetalert2.min.css">
+<!-- ICONES -->
+<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+<!-- OWL CAROUSEL -->
+<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+
+<!-- GOOGLE FONTS -->
+<link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+
+<style type="text/css">
+
+  .corpo-conteudo{
+    position: relative;
+    display: block;
+    width: 100% !important;
+    max-width: 100%;
+    height: 100% !important;
+    overflow-x: hidden !important; /* FUNDAMENTAL */
+    overflow-y: hidden !important; /* FUNDAMENTAL */
+  }
+
+</style>
+
+
+
+</head>
+<body>
+
+<!-- TODO CONTEÚDO DAS VIEWS SERÁ EXIBIDO AQUI -->
+<div class="corpo-conteudo"></div>
+<!-- TODO CONTEÚDO DAS VIEW SERÁ EXIBIDO AQUI -->
+
+
+<!-- BARRA DE NAVEGAÇÃO INFERIOR -->
+    <div class="barra-navegacao">
+
+      <div class="container">
+        <div class="row">
+
+
+          <div class="coluna-menu" style="text-align: center;">
+             <div class="navegacao-principal menu-1 ativo" data-acao="eventos">
+               <a href="javascript:void(0)" onclick="voltarAoInicio(); procMenu(1);">
+                <i class="fa fa-home"></i> HOME
+               </a>
+             </div>
+          </div>
+
+          <div class="coluna-menu" style="text-align: center;">
+             <div class="navegacao-principal menu-2" data-acao="feed">
+                 <a href="javascript:void(0)" onclick="locais(); procMenu(2);">
+                  <i class="fa fa-map-marker"></i> LOCAIS
+                 </a>
+             </div>
+          </div>
+
+          <div class="coluna-menu" style="text-align: center;">
+             <div class="navegacao-principal menu-3" data-acao="criar-conteudo">
+                 <a href="javascript:void(0)" onclick="fretes(); procMenu(3);">
+                  <i class="fa fa-truck"></i> FRETES
+                 </a>
+            </div>
+          </div>
+
+         
+
+        </div>
+      </div>
+
+    </div>
+    <!-- BARRA DE NAVEGAÇÃO INFERIOR -->
+
+    <!-- AVISOS -->
+    <div class="modal-avisos" id="swipeme">
+      <div class="aviso">
+        <h3><span></span></h3>
+        <p>Carregando...</p>
+      </div>
+    </div>
+    <!-- AVISOS -->
+
+
+
+
+
+    <!-- CONFIRMAÇÕES DO USUÁRIO -->
+    <div class="modal-confirmacao" id="swipemeConfirmacao">
+      <div class="confirmacao">
+        <h3><img src="assets/images/aviso.png" alt="Aqui o título do aviso"> <span></span></h3>
+        <p id="confirmacaoInstrucao">Carregando...</p>
+        <div class="row2">
+          
+          <div class="col">
+            <button type="button" class="btn btn-primary" id="acaoConfirmacao">Confirmar</button>
+          </div>
+          <div class="col">
+             <button type="button" onclick="fecharConfirmacao();" class="btn btn-default">Cancelar</button>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- CONFIRMAÇÕES DO USUÁRIO -->
+
+
+
+
+     <!-- MENU ADICIONAL MINHA CONTA -->
+    <div class="menu-adicional-minha-conta">
+      
+          <!-- FECHAR MENU MINHA CONTA -->
+          <div class="fechar-menu-minha-conta">
+            <a href="javascript:void(0)" title="Fechar menu minha conta" onclick="abrirFecharMenuMinhaCampanha();">
+               <img src="assets/images/fechar-menu-loja.svg" alt="Fechar menu minha conta">
+            </a>
+          </div>
+          <!-- FECHAR MENU MINHA CONTA -->
+          
+          <!-- NAVEGAÇÃO PRINCIPAL -->
+          <nav>
+            <ul>
+              <li><a href="javascript:void(0)" onclick="meuPlano();" title="Meu plano"><img src="assets/images/minha-conta-meu-plano.svg" alt="Minha assinatura"> Minha assinatura</a></li>
+              <li><a href="javascript:void(0)" onclick="historicoPagamentos();" title="Histórico de pagamento"><img src="assets/images/minha-conta-historico.svg" alt="Histórico de pagamentos"> Histórico de pagamentos</a></li>
+              <li><a href="javascript:void(0)" onclick="duvidas();" title="Dúvidas"><img src="assets/images/duvidas-menu-loja.svg" alt="Relatar um problema"> Relatar um problema</a></li>
+            </ul>
+          </nav>
+          <!-- NAVEGAÇÃO PRINCIPAL -->
+
+    </div>
+    <!-- MENU ADICIONAL MINHA CONTA -->
+
+
+    <!-- LOAD DE CARREGAMENTO -->
+    <div class="load-de-carregamento">
+        <div class="row">
+          <div class="col-12">
+             <img src="assets/images/favicon.png" alt="BeautyConnect">
+             <p>carregando</p>
+             <p style="padding-top: 15px;">
+                  <a href="javascript:void(0)" style="text-decoration: none;font-size:12px;color: #212529" onclick="location.reload()">
+                    Demorando muito? Cancelar
+                  </a>
+                </p>
+          </div>
+        </div>
+    </div>
+    <!-- LOAD DE CARREGAMENTO -->
+
+
+
+    <script type="text/javascript" src="assets/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/tether.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    
+
+    <!-- GMAPS API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUGRiH2iey-c2WqqeegGF2qpxBDNLsmfQ&libraries=places&region=in"></script>
+    <script type="text/javascript" src="assets/js/mapa.js"></script>
+
+    <script src="assets/js/dist/jquery.inputmask.bundle.js"></script>
+    <script src="assets/js/dist/inputmask/phone-codes/phone.js"></script>
+
+    <script type="text/javascript" src="assets/js/jquery.qrcode.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.amsify.suggestags.js"></script>
+
+ 
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="assets/js/sweetalert2.min.js"></script>
+
+     <!-- VIEWS -->
+    <script type="text/javascript">
+      // PAGINA PRINCIPAL DAS VIEWS
+      var paginaSessao = "index.html";
+    </script>
+
+
+   
+
+
+
+    <!-- ##### BETTER SEARCH ##### -->
+    <div class="better-search" id="betterSearch">
+       
+       <div class="header-better-search">
+         <a href="javascript:void(0)" title="voltar" onclick="fecharBetterSearch()">
+            <img src="assets/images/voltar-rocho.svg" alt="Voltar"> <span>Pesquisar</span>
+         </a>
+       </div>
+
+       <div class="form-group has-feedback">
+          <input type="text" class="form-control" onkeyup="filtroBetterSearch();" id="betterSearchField" placeholder="Digite o que procura nesse campo">
+          <i class="fa fa-search"></i>
+       </div>
+
+       <nav>
+         <ul id="dadosResultadosGerais">
+                           <div class="load-wrapp">
+                              <div class="load-10">
+                                <p>Carregando resultados</p>
+                                <div class="bar"></div>
+                              </div>
+                            </div>
+         </ul>
+         <ul id="dadosResultadosEventos">
+         </ul>
+         <ul id="dadosResultadosFeed">
+         </ul>
+         <ul id="dadosResultadosGrupos">           
+         </ul>
+         <ul id="dadosResultadosConversas">           
+         </ul>
+       </nav>
+
+    </div>
+    <!-- ##### BETTER SEARCH ##### -->
+
+    <!-- FAKE SPLASHCREEN -->
+    <div class="fakesplashcreen">
+       &nbsp;
+    </div>
+    <!-- FAKE SPLASHCREEN -->
+
+
+    <script type="text/javascript" src="assets/js/jsview.js"></script>
+    <script type="text/javascript" src="app/controllers/controllers.js?v=5"></script>
+    <script type="text/javascript" src="app/views/views.js?v=5"></script>
+
+    <script src="assets/js/owl.carousel.js"></script>
+
+    <script type="text/javascript" src="assets/js/jquery.touchSwipe.min.js"></script>
+    <script type="text/javascript">
+
+          // SE O USUÁRIO FIZER UM GESTURE PARA A PARTE INFERIOR DA PÁGINA
+          // VAMOS FECHAR A LAYER DO CARRO, CASO ELA ESTEJA ABERTA
+
+          $("#swipeme").swipe({
+            swipe:function(event, direction, distance, duration, fingerCount) {
+
+              if(direction=="down"){
+
+                $(".modal-avisos .aviso").css("bottom","-30%");
+                $(".modal-avisos").fadeOut(500);
+
+              }
+
+            }
+          });
+
+
+
+        $("#swipemeShare").swipe({
+            swipe:function(event, direction, distance, duration, fingerCount) {
+
+              if(direction=="down"){
+
+                $(".modal-share .aviso").css("bottom","-30%");
+                $(".modal-share").fadeOut(500);
+
+              }
+
+            }
+          });
+
+
+          $("#swipemeAcaoPostagem").swipe({
+            swipe:function(event, direction, distance, duration, fingerCount) {
+
+              if(direction=="down"){
+
+                $(".modal-acao-postagem .aviso").css("bottom","-30%");
+                $(".modal-acao-postagem").fadeOut(500);
+
+              }
+
+            }
+          });
+
+          $("#swipemeAcaoComentario").swipe({
+            swipe:function(event, direction, distance, duration, fingerCount) {
+
+              if(direction=="down"){
+
+                $(".modal-acao-comentario .aviso").css("bottom","-30%");
+                $(".modal-acao-comentario").fadeOut(500);
+
+              }
+
+            }
+          });
+          
+
+          $("#swipemeConfirmacao").swipe({
+            swipe:function(event, direction, distance, duration, fingerCount) {
+
+              if(direction=="down"){
+
+                $(".modal-confirmacao .confirmacao").css("bottom","-30%");
+                $(".modal-confirmacao").fadeOut(500);
+
+              }
+
+            }
+          });
+
+          // TESTAR DISPONIBILIDADE API
+          testeApi();
+
+          // CARREGAR OS EVENTOS
+          setTimeout("removerFakeSplash();", 2000);
+          setTimeout("carregarConteudo();", 3000);
+
+    </script>
+
+    <script type="text/javascript" src="phonegap.js"></script>
+
+</body>
+</html>
