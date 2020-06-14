@@ -15,3 +15,8 @@
   pamelaguerreirolima@gmail.com <br>
   brunarennodon@gmail.com <br>
 </p>
+
+> URL PWA:
+<p>
+  https://ccr2020.diogenesjup.vercel.app/
+</p>
