@@ -48,9 +48,7 @@ if ('serviceWorker' in navigator) {
 // SALVAR OS ARQUIVOS
 var CACHE_NAME = 'no-trecho';
 var urlsToCache = [
-  '/',
-  '/assets/css/style.css',
-  '/views/'
+  '/'
 ];
 
 self.addEventListener('install', function(event) {
