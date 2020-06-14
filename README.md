@@ -20,3 +20,8 @@
 <p>
   https://servidorseguro.cloud/ccr2020/www
 </p>
+
+> URL APK instalador Android
+<p>
+  https://drive.google.com/file/d/1euCdijQrGwOswIvOyb-v-09hP8gAcEuj/view?usp=sharing
+</p>
