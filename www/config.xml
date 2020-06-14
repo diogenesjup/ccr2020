@@ -3,7 +3,7 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.time365.notrech"
+        id        = "com.time365.notrecho"
         version   = "1.0.0">
 
     <name>NoTrecho</name>
@@ -12,7 +12,7 @@
         NoTrecho
     </description>
 
-    <author href="https://notrech.now.sh/" email="diogenesjunior.ti@gmail.com">
+    <author href="https://servidorseguro.cloud/ccr2020/www/" email="diogenesjunior.ti@gmail.com">
         NoTrecho
     </author>
 
@@ -61,8 +61,7 @@
 
     <!-- Core plugins  -->
        
-    <plugin name="cordova-plugin-camera" spec="~2.4.1"  /> <!--spec="~2.4.1"  -->
-    <!-- <plugin name="cordova-plugin-file"   />   -->
+   <!-- <plugin name="cordova-plugin-file"   />   -->
     <!--<plugin name="cordova-plugin-file-transfer" spec="~1.6.1" /> --> <!-- spec="~1.6.1"  -->
     <!--<plugin name="cordova-plugin-media-capture" />-->
     <plugin name="cordova-plugin-android-permissions" />
@@ -87,7 +86,7 @@
     -->
 
     <!-- Define app icon for each platform. -->
-    <icon src="images/icones/225.png" />
+    <icon src="assets/images/icones/225.png" />
 
     <!--
     <icon src="images/icones/36.png"  gap:platform="android" gap:qualifier="ldpi" />

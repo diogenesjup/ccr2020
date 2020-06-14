@@ -605,23 +605,31 @@ recognition.onresult = function(event) {
   recognition.stop();
   //recognition.start();
 
-    if(transcript=="Próxima parada" || transcript=="próxima parada"){
+  if(transcript=="Próxima parada" || transcript=="próxima parada"){
       var audio = new Audio('assets/got-it-done.mp3');
       audio.play();
       $(".caixa-sugestoes-ouvindo span").html("Entendi! Sua próxima parada está a 20KM de distância, você está quase lá!");
   }
 
-   if(transcript=="Estou com sono" || transcript=="estou com sono"){
+  if(transcript=="Estou com sono" || transcript=="estou com sono"){
       var audio = new Audio('assets/got-it-done.mp3');
       audio.play();
       $(".caixa-sugestoes-ouvindo span").html("Você está com sono? Cuidado! Não é bom dirigir assim, é <b>hora de fazer uma parada</b>");
   }
 
 
-    if(transcript=="Alimentação" || transcript=="alimentação"){
+  
+  if(transcript=="Alimentação" || transcript=="alimentação"){
       var audio = new Audio('assets/got-it-done.mp3');
       audio.play();
-      $(".caixa-sugestoes-ouvindo span").html("Bateu aquela fome? Tem uma Parada com restaurante a 15Km de distância! Vamos até lá.");
+      $(".caixa-sugestoes-ouvindo span").html("Bateu aquela <b>fome</b>? Em 31Km você chegará a uma parada com alimentação!");
+  }
+
+
+    if(transcript=="Desligar GPS" || transcript=="desligar gps" || transcript=="desligar GPS" || transcript=="desligar gepe esse" || transcript=="desativar GPS" ||) transcript=="Desativar GPS"{
+      var audio = new Audio('assets/got-it-done.mp3');
+      audio.play();
+      $(".caixa-sugestoes-ouvindo span").html("<b>Entendi!</b> Estou processando sua solicitação de <b>desligar o GPS</b>...");
   }
   
 
