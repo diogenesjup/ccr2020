@@ -68,7 +68,7 @@ self.addEventListener('install', function(event) {
 
 
 
-var urlDom = "https://ccr2020.diogenesjup.vercel.app/";
+var urlDom = "https://ccr2020.vercel.app/";
 var urlApi = "https://servidorseguro.cloud/ccr2020/api/";
 var urlCdn = "";
 
