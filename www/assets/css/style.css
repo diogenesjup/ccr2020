@@ -169,6 +169,63 @@ header.fretes .filtros a i{
   font-size: 16px;
 }
 
+
+header.single{
+  height: 53px;
+}
+
+header.single .col-2{
+  padding-left: 0px;
+}
+
+header.single .col-2 a,
+header.single .col-2 a:hover{
+  text-decoration: none;
+  color: #fff !important;
+  font-size: 24px !important;
+}
+
+header.single .col-8{
+  text-align: center;
+}
+
+header.single .col-8 h1{
+
+        font-size: 15px;
+    text-align: center;
+    font-family: Roboto;
+    padding-top: 10px;
+  
+}
+
+.container.conteudo.single{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.container.conteudo.single h2{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    line-height: 23px;
+    font-weight: bold;
+}
+
+.container.conteudo.single p{
+  padding-left: 15px !important;
+    padding-right: 15px !important;
+    color: #747474 !important;
+    line-height: 19px !important;
+    font-size: 13px !important;
+}
+
+.banner-single img{
+  width: 100%;
+  height: auto;
+}
+
 header img{
   max-width: 100%;
   height: auto;
@@ -697,7 +754,7 @@ jsv-content .item {
 }
 .no-js .owl-carousel, .owl-carousel.owl-loaded {
     display: block;
-    height: 400px;
+    height: auto;
 }
 .owl-dots{
   display: none !important;
@@ -824,7 +881,7 @@ p.the-check{
 }
 
 .btn-primary,.btn-primary:hover,.btn-primary:active,.btn-primary:focus,.btn-primary:visited{
-   background: #012169 !important;
+   background: #FFED47 !important;
 }
 
 .btn-success,.btn-success:hover,.btn-success:active,.btn-success:focus,.btn-success:visited{
@@ -1300,12 +1357,16 @@ p.the-check{
       }
 
 
-
+.stories.snapgram .story > a > .img {
+    border-radius: 50%;
+    padding: 2px;
+    background: rgba(000,000,000,0.2) !important;
+}
 
 .modal-avisos .aviso h3{
    font-family: 'Muli', sans-serif;
    font-weight: 600;
-   color: #012169;
+   color: #000;
    margin-top: 1px;
    margin-bottom: 12px;
    line-height: 1.15em;
@@ -4325,7 +4386,8 @@ nav.menu-campanha ul li a i{
 .stories.carousel {
     white-space: nowrap;
     overflow: auto;
-    padding-left: 15px;
+    padding-left: 3px;
+    padding-right: 12px;
     -webkit-overflow-scrolling: touch;
     overflow-scrolling: touch;
 }
@@ -4369,6 +4431,65 @@ nav.menu-campanha ul li a i{
     background: #f2f2f2;
     border-radius: 6px;
 }
+
+
+
+
+.loop-parcerias{
+  padding-top: 24px;
+}
+
+
+.loop-parcerias h3{
+  color: #242A2E;
+    font-size: 17px;
+    font-family: Roboto;
+    border-bottom: 1px solid #DADADA;
+    margin-bottom: 20px;
+} 
+
+
+.loop-parcerias .caixa-parceria-pontos{
+      position: relative;
+    display: block;
+    left: 0;
+    width: 100%;
+    height: 93px;
+    background: #F1F1F1;
+    margin-bottom: 7px;
+    border-radius: 6px;
+}
+
+.loop-parcerias .caixa-parceria-pontos a,
+.loop-parcerias .caixa-parceria-pontos a:hover{
+        position: absolute;
+    display: block;
+    text-decoration: none;
+    background: #C4C4C4;
+    color: #fff;
+    text-align: center;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    font-size: 10px;
+    font-weight: bold;
+    height: 31px;
+    padding-top: 8.5px;
+    text-align: center;
+}
+
+.lista-parcerias{
+  padding: 0px;
+}
+.lista-parcerias .col-6{
+  padding-left: 0px;
+  padding-right: 6px;
+}
+
+
+
+
 
 .better-search{
   position: fixed;
@@ -4492,11 +4613,50 @@ nav.menu-campanha ul li a i{
   padding-right: 3px;
 }
 
-
+.loop-frete{
+      padding-left: 18px;
+    padding-right: 18px;
+}
 
 /*---------------------------------
   MAPA (GMAPS)
 -----------------------------------*/
+
+.caixa-sugestoes-ouvindo{
+  position: absolute;
+    display: block;
+    left: 50%;
+    top: 30px;
+    width: 95%;
+    margin-left: -47.5%;
+    /* margin-right: auto; */
+    background: #fff;
+    border-radius: 12px;
+    height: 52px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    z-index: 9999;
+    padding: 6px;
+
+}
+
+.caixa-sugestoes-ouvindo i{
+  font-size: 26px;
+    display: inline-block;
+    margin-top: 7px;
+    margin-left: 6px;
+}
+
+.caixa-sugestoes-ouvindo span {
+    display: inline-block;
+    float: right;
+    width: 266px;
+    padding-right: 12px;
+    font-size: 12px;
+    padding-top: 3px;
+    text-align: right;
+}
+
 #mapa{
   position: absolute;
   display: block;

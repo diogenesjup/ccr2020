@@ -8,5 +8,8 @@ $JSView.controller = {
 	fretes: function(e){
 		$JSView.dataView({},e)
 	},
+	single: function(e){
+		$JSView.dataView({},e)
+	},
 
 }

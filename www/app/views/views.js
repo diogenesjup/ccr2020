@@ -21,6 +21,12 @@ window.addEventListener('load', function() {
             controller: 'fretes'
         },
 
+        single: {
+            url: '/single',
+            template: 'app/views/single.html',
+            controller: 'single'
+        },
+
 
 
     });

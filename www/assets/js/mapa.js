@@ -232,7 +232,7 @@ function carregarMapa(){
            directionsDisplay.setMap(map); // Relacionamos o directionsDisplay com o mapa desejado
 
                var image = {
-                 url: 'assets/images/gps.svg',
+                 url: 'assets/images/gps.svg?v=3',
                   size: new google.maps.Size(40, 60),
                   origin: new google.maps.Point(0,0),
                   anchor: new google.maps.Point(40, 24)
@@ -246,6 +246,114 @@ function carregarMapa(){
 
                 google.maps.event.addListener(marker,'click',function(){
                     aviso('O que significa esse ícone?','Segundo o seu GPS, essa é a sua localização atual');
+                });
+
+
+
+                var image2 = {
+                 url: 'assets/images/p1.png?v=4',
+                  size: new google.maps.Size(40, 60),
+                  origin: new google.maps.Point(0,0),
+                  anchor: new google.maps.Point(40, 24)
+                };
+
+                var latlng2 = new google.maps.LatLng("-23.5240056","-46.8122944");
+
+                var marker2 = new google.maps.Marker({
+                    icon: image2,
+                    position: latlng2,
+                    map: map,
+                });
+
+                google.maps.event.addListener(marker2,'click',function(){
+                    aviso('O que tem aqui?','Aconteceu um acidente no KM 18 da Bandeirantes');
+                });
+
+
+
+                var image3 = {
+                 url: 'assets/images/p2.png?v=4',
+                  size: new google.maps.Size(40, 60),
+                  origin: new google.maps.Point(0,0),
+                  anchor: new google.maps.Point(40, 24)
+                };
+
+                var latlng3 = new google.maps.LatLng("-23.5245245","-46.8056264");
+
+                var marker3 = new google.maps.Marker({
+                    icon: image3,
+                    position: latlng3,
+                    map: map,
+                });
+
+                google.maps.event.addListener(marker3,'click',function(){
+                    aviso('O que tem aqui?','Um posto de atendimento ao caminhoneiro da CCR Autoban');
+                });
+
+
+
+
+
+                 var image4 = {
+                 url: 'assets/images/p32.png?v=4',
+                  size: new google.maps.Size(40, 60),
+                  origin: new google.maps.Point(0,0),
+                  anchor: new google.maps.Point(40, 24)
+                };
+
+                var latlng4 = new google.maps.LatLng("-23.5167751","-46.8112215");
+
+                var marker4 = new google.maps.Marker({
+                    icon: image4,
+                    position: latlng4,
+                    map: map,
+                });
+
+                google.maps.event.addListener(marker4,'click',function(){
+                    aviso('O que tem aqui?','Uma mecânica especializada em manutenção de veículos de 4 a 16 eixos!');
+                });
+
+
+
+                 var image5 = {
+                 url: 'assets/images/p52.png?v=4',
+                  size: new google.maps.Size(40, 60),
+                  origin: new google.maps.Point(0,0),
+                  anchor: new google.maps.Point(40, 24)
+                };
+
+                var latlng5 = new google.maps.LatLng("-23.5440031","-46.8061146");
+
+                var marker5 = new google.maps.Marker({
+                    icon: image5,
+                    position: latlng5,
+                    map: map,
+                });
+
+                google.maps.event.addListener(marker5,'click',function(){
+                    aviso('O que tem aqui?','Cuidado! Alguns caminhoneiros foram assaltados nesse ponto!');
+                });
+
+
+
+
+                var image6 = {
+                 url: 'assets/images/p42.png?v=4',
+                  size: new google.maps.Size(40, 60),
+                  origin: new google.maps.Point(0,0),
+                  anchor: new google.maps.Point(40, 24)
+                };
+
+                var latlng6 = new google.maps.LatLng("-23.5303553","-46.8088075");
+
+                var marker6 = new google.maps.Marker({
+                    icon: image6,
+                    position: latlng6,
+                    map: map,
+                });
+
+                google.maps.event.addListener(marker6,'click',function(){
+                    aviso('O que tem aqui?','Parada com alimentação, banheiro e cuidados médicos!');
                 });
 
 
@@ -562,7 +670,7 @@ function gravarPercurso(){
           var latLngBounds = new google.maps.LatLngBounds();
            
           var cursor = {
-                 url: 'assets/images/gps.svg',
+                 url: 'assets/images/gps.svg?v=3',
                  size: new google.maps.Size(40, 60),
                  origin: new google.maps.Point(0,0),
                  anchor: new google.maps.Point(40, 24)

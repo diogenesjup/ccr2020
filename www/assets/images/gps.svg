@@ -10,8 +10,8 @@
   </defs>
   <g id="Grupo_558" data-name="Grupo 558" transform="translate(5.5 5.5)">
     <g transform="matrix(1, 0, 0, 1, -5.5, -5.5)" filter="url(#Caminho_114)">
-      <path id="Caminho_114-2" data-name="Caminho 114" stroke="#fff" d="M4.353,4.451a15.344,15.344,0,0,1,21.7,21.7L15.2,37,4.353,26.15A15.762,15.762,0,0,1,4.353,4.451Z" fill="#db541e" transform="translate(5.48 5.55)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
+      <path id="Caminho_114-2" data-name="Caminho 114" stroke="#000" d="M4.353,4.451a15.344,15.344,0,0,1,21.7,21.7L15.2,37,4.353,26.15A15.762,15.762,0,0,1,4.353,4.451Z" fill="#ffed47" transform="translate(5.48 5.55)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
     </g>
-    <circle id="Elipse_103" data-name="Elipse 103" cx="7.5" cy="7.5" r="7.5" transform="translate(7.844 7.293)" fill="#fff"/>
+    <circle id="Elipse_103" data-name="Elipse 103" cx="7.5" cy="7.5" r="7.5" transform="translate(7.844 7.293)"/>
   </g>
 </svg>

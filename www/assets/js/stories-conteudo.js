@@ -16,7 +16,7 @@ function buildItem(id, type, length, src, preview, link, seen, time){
 				var skin = location.href.split('skin=')[1];
 
 				if(!skin) {
-					skin = 'FaceSnap';
+					skin = 'Snapgram';
 				}
 
 				if(skin.indexOf('#')!==-1){
@@ -60,69 +60,79 @@ function buildItem(id, type, length, src, preview, link, seen, time){
 					avatars: skins[skin]['avatars'],
 					list: skins[skin]['list'],
                     cubeEffect: skins[skin]['cubeEffect'],
-					localStorage: true,
+					localStorage: false,				
 					stories: [
 						{
 							id: "saude",
-							photo: "assets/images/saude.jpg",
+							photo: "assets/images/Saude_2.png",
 							name: "SAÚDE",
 							link: "",
-							lastUpdated: Date.now(),
+							lastUpdated: "0",
 							items: [
-								buildItem("saude-1", "video", 0, "assets/videos/papo-de-caminhoneiro-saude-episodio-1.mp4", "assets/images/splashscreen.png", '', false, Date.now()),
-								buildItem("saude-2", "video", 0, "assets/videos/papo-de-caminhoneiro-saude-episodio-2.mp4", "assets/images/splashscreen.png", '', false, Date.now()),
+								buildItem("saude-1", "video", 0, "assets/videos/papo-de-caminhoneiro-saude-episodio-1.mp4", "assets/images/foto-perfil.png", '', false, 0),
+								buildItem("saude-2", "video", 0, "assets/videos/papo-de-caminhoneiro-saude-episodio-2.mp4", "assets/images/foto-perfil.png", '', false, 0),
 								]
 						},
 						{
 							id: "seguranca",
-							photo: "https://lh3.googleusercontent.com/xYFz6B9FHMQq7fDOI_MA61gf0sNdzGBbdR7-mZ7i4rEVvE_N-kZEY_A4eP74Imcf8Sq3FYxAgd4eJA=w200",
+							photo: "assets/images/Seguranca.png",
 							name: "SEGURANÇA",
 							link: "",
-							lastUpdated: 1492665454,
+							lastUpdated: Date.now(),
 							items: [
-								buildItem("gorillaz-1", "video", 0, "https://instagram.frao1-1.fna.fbcdn.net/t50.2886-16/17886251_1128605603951544_572796556789415936_n.mp4", "https://pbs.twimg.com/media/C8VgMQ8WAAE5i9M.jpg:small", '', false, 1492665454),
-								buildItem("gorillaz-2", "photo", 3, "https://pbs.twimg.com/media/C8VgMQ8WAAE5i9M.jpg:large","https://pbs.twimg.com/media/C8VgMQ8WAAE5i9M.jpg:small", '', false, 1492665454),
+								buildItem("seguranca-1", "photo", 0, "assets/images/seguranca-1.jpg", "assets/images/seguranca-1.jpg?v=2", '', false, Date.now()),
+								buildItem("seguranca-2", "photo", 0, "assets/images/seguranca-2.jpg","assets/images/seguranca-2.jpg?v=2", '', false, Date.now()),
+								buildItem("seguranca-3", "photo", 0, "assets/images/seguranca-3b.jpg","assets/images/seguranca-3b.jpg", '', false, Date.now()),
+							]
+						},
+						{
+							id: "elas",
+							photo: "assets/images/Elas2.png",
+							name: "ELAS",
+							link: "",
+							lastUpdated: Date.now(),
+							items: [
+								buildItem("elas-1", "video", 0, "assets/videos/mulher.mp4", "assets/images/elas.png", '', false, Date.now()),
 							]
 						},
 						{
 							id: "dicas",
-							photo: "https://lh3.googleusercontent.com/VkANYSL1HOzINPSnzBJRM879b302ShsRwLoKD7mLezgTLvlpHPm_dIVop7mkAQfepze6O5N8rw8l4yM=w200",
+							photo: "assets/images/Dicas.png",
 							name: "DICAS",
 							link: "",
-							lastUpdated: 1492665454,
+							lastUpdated: Date.now(),
 							items: [
-								buildItem("ladygaga-1", "photo", 5, "https://pbs.twimg.com/media/C8mtrEMXcAA9KKM.jpg:large", "https://pbs.twimg.com/media/C8mtrEMXcAA9KKM.jpg:small", '', false, 1492665454),
-								buildItem("ladygaga-2", "photo", 3, "https://pbs.twimg.com/media/C4t_bxcXAAE3Hwb.jpg:large", "https://pbs.twimg.com/media/C4t_bxcXAAE3Hwb.jpg:small", 'http://ladygaga.com', false, 1492665454),
+								buildItem("dicas-1", "video", 0, "assets/videos/dicas-de-economia-para-caminhoneiros.mp4", "assets/images/foto-perfil.png", '', false, Date.now()),
 							]
 						},
 						{
 							id: "alertas",
-							photo: "https://lh3.googleusercontent.com/nMxfllzaAmaCCZJEMiKe2EARjyUNItQ-mdgAq6he-LWXwkIWbiiBIHyC3rGiqDu6fgyVK6NnjcgueA=w200",
+							photo: "assets/images/Alertas.png",
 							name: "ALERTAS",
 							link: "",
-							lastUpdated: 1492665454,
+							lastUpdated: Date.now(),
 							items: [
-								buildItem("starboy-1", "photo", 5, "https://pbs.twimg.com/media/C6f-dTqVQAAiy1K.jpg:large", "https://pbs.twimg.com/media/C6f-dTqVQAAiy1K.jpg:small", '', false, 1492665454)
+								buildItem("alertas-1", "video", 0, "assets/videos/ccr.mp4", "assets/images/foto-perfil.png", '', true, Date.now())
 							]
 						},
 						{
 							id: "novidades",
-							photo: "https://lh3.googleusercontent.com/nE4grkY8s88P_1mFFA06mGCNshhqtIz4C4y2dV7AZbm0360zopRKDMCYtUHR0uQR2DAfYMRZdA=s180-p-e100-rwu-v1",
+							photo: "assets/images/Novidades.png",
 							name: "NOVIDADES",
 							link: "",
-							lastUpdated: 1492665454,
+							lastUpdated: "",
 							items: [
-								buildItem("qotsa-1", "photo", 10, "https://pbs.twimg.com/media/C8wTxgUVoAALPGA.jpg:large", "https://pbs.twimg.com/media/C8wTxgUVoAALPGA.jpg:small", '', false, 1492665454)
+								buildItem("novidades-1", "photo", 0, "assets/images/novidades.jpg", "assets/images/novidades.jpg", '', false, "")
 							]
 						},
             {
 							id: "ccr",
-							photo: "https://lh3.googleusercontent.com/nE4grkY8s88P_1mFFA06mGCNshhqtIz4C4y2dV7AZbm0360zopRKDMCYtUHR0uQR2DAfYMRZdA=s180-p-e100-rwu-v1",
+							photo: "assets/images/CCR.png",
 							name: "CCR",
 							link: "",
-							lastUpdated: 1492665454,
+							lastUpdated: "",
 							items: [
-								buildItem("qotsa-1", "photo", 10, "https://pbs.twimg.com/media/C8wTxgUVoAALPGA.jpg:large", "https://pbs.twimg.com/media/C8wTxgUVoAALPGA.jpg:small", '', false, 1492665454)
+								buildItem("ccr-1", "photo", 0, "assets/images/ccr.jpg", "assets/images/ccr.jpg", '', false, "")
 							]
 						}
 					]

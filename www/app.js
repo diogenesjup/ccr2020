@@ -546,7 +546,86 @@ function carregarConteudo(){
 }
 
 
+function singleConteudo(){
+  
+  console.log("DIRECIONANDO O USUÁRIO PARA DETALHE DE CONTEÚO");
+  $JSView.goToView('single');
 
+  // DESATIVAR EVENTUAIS MENUS ATIVADOS
+   desligarMenus();
+
+}
+
+
+
+// COMANDO POR VOZ
+var comandosPorVoz = "nao";
+var noteContent;
+var continuarOuvindo;
+
+try {
+
+  var SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+  var recognition = new SpeechRecognition();
+   comandosPorVoz = "sim";
+}
+catch(e) {
+  console.error(e);
+  $('#comendoPorVoz').hide();
+}
+
+recognition.onstart = function() { 
+  
+  //aviso('Estou te ouvindo.','Fale pausadamente para uma melhor captura do seu áudio');
+  //$(".caixa-sugestoes-ouvindo span").html("Ouvindo...");
+
+}
+/*
+recognition.onspeechend = function() {
+  aviso('Não estou conseguindo te ouvir.','Tente falar pausadamente e mais próximo do seu disposítivo');
+}
+*/
+
+recognition.onerror = function(event) {
+  if(event.error == 'no-speech') {
+    //aviso('Ocorreu um erro. Tente novamente','Não conseguimos acesso ao seu microfone.');  
+  };
+}
+
+
+recognition.onresult = function(event) {
+  
+  var current = event.resultIndex;
+  var transcript = event.results[current][0].transcript;
+  
+  $("#destino").val("Eu ouvi: "+transcript);
+
+  console.log(transcript);
+
+  recognition.stop();
+  //recognition.start();
+
+    if(transcript=="Próxima parada" || transcript=="próxima parada"){
+      var audio = new Audio('assets/got-it-done.mp3');
+      audio.play();
+      $(".caixa-sugestoes-ouvindo span").html("Entendi! Sua próxima parada está a 20KM de distância, você está quase lá!");
+  }
+
+   if(transcript=="Estou com sono" || transcript=="estou com sono"){
+      var audio = new Audio('assets/got-it-done.mp3');
+      audio.play();
+      $(".caixa-sugestoes-ouvindo span").html("Você está com sono? Cuidado! Não é bom dirigir assim, é <b>hora de fazer uma parada</b>");
+  }
+
+
+    if(transcript=="Alimentação" || transcript=="alimentação"){
+      var audio = new Audio('assets/got-it-done.mp3');
+      audio.play();
+      $(".caixa-sugestoes-ouvindo span").html("Bateu aquela fome? Tem uma Parada com restaurante a 15Km de distância! Vamos até lá.");
+  }
+  
+
+}
 
 /* CARREGAR LOCAIS (INIT MAPA) */
 function locais(){
@@ -555,10 +634,32 @@ function locais(){
   $JSView.goToView('locais');
 
   // CARREGAR MAPA
-  setTimeout("initMapa();", 2000);
+  setTimeout("initMapa();", 100);  
+  setTimeout("loopVoz();", 2500);   
+
+  
 
 }
 
+function loopVoz(){
+   
+   recognition.start();
+
+   try {
+       continuarOuvindo = setInterval("recognition.start(); $('#destino').val('Ouvindo...');",300);
+    }
+    catch(e) {
+       console.log("PROBLEMAS EM OUVIR...");
+    }
+
+}
+
+function resetVoz(){
+  
+   recognition.stop();
+   clearInterval(continuarOuvindo);
+
+}
 
 
 /* CARREGAR LISTA DE FRETES */
@@ -585,13 +686,15 @@ function fretes(){
 let betterSearch = [];
 let betterSearchExtra = [];
 
-function ativandoPesquisa(){
+function ativandoPesquisa(origem){
   
   console.log("INICIANDO FUNÇÃO PARA PESQUISA GERAL DE CONTEÚDO BEAUTY CONNECT / BETTER SEARCH");
   betterSearchFn("geral", "nenhum", "nenhum", "json");
   
   // FILTRAR OS RESULTADOS
   filtroBetterSearch();
+
+  localStorage.setItem("origemField",origem);
 
   if(betterSearch==""){
     console.log("BUSCANDO CONTEÚDO");
@@ -630,9 +733,15 @@ function betterSearchFn(tipo, target, alvo, tipoDados){
 }
 
 // FECHAR A BUSCA
-function fecharBetterSearch(){
+function fecharBetterSearch(dado){
   $("#betterSearch").css("bottom","-1000px");
-  $(".busca-header .form-control").val("");
+  
+  if(localStorage.getItem("origemField")==1){
+      $("#localOrigin").val(dado);
+  }
+  if(localStorage.getItem("origemField")==2){
+      $("#localDestino").val(dado);
+  }
 }
 
 
@@ -700,7 +809,7 @@ function buscarConteudoBusca(){
                   // ALIMENTAR HTML
                   
                   for(var i = 0;i<dados.locais.length;i++){
-                     $("#dadosResultadosGerais").append('<li onclick="fecharBetterSearch();"><i class="fa fa-map-marker"></i> '+dados.locais[i].nome+'</li>');
+                     $("#dadosResultadosGerais").append('<li onclick="fecharBetterSearch(\''+dados.locais[i].nome+'\');"><i class="fa fa-map-marker"></i> '+dados.locais[i].nome+'</li>');
                   }
 
                  
