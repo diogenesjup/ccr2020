@@ -18,5 +18,5 @@
 
 > URL PWA:
 <p>
-  https://ccr2020.diogenesjup.vercel.app/
+  https://ccr2020.vercel.app/
 </p>
