@@ -48,9 +48,9 @@ if ('serviceWorker' in navigator) {
 // SALVAR OS ARQUIVOS
 var CACHE_NAME = 'no-trecho';
 var urlsToCache = [
-  '/www',
-  '/www/assets/css/style.css',
-  '/www/views/'
+  '/',
+  '/assets/css/style.css',
+  '/views/'
 ];
 
 self.addEventListener('install', function(event) {
@@ -68,7 +68,7 @@ self.addEventListener('install', function(event) {
 
 
 
-var urlDom = "";
+var urlDom = "https://ccr2020.diogenesjup.vercel.app/";
 var urlApi = "https://servidorseguro.cloud/ccr2020/api/";
 var urlCdn = "";
 
