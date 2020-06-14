@@ -35,7 +35,7 @@ t%%%   .  . .  ..tS ;. :%t8     ;t%S   . ..X %%t;: :%%S   t8.t; . .:ttS8 ..tt8 X
 // REGISTRANDO UM SERVICE WORKER
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
-    navigator.serviceWorker.register('/www/app.js').then(function(registration) {
+    navigator.serviceWorker.register('/app.js').then(function(registration) {
       // Registration was successful
       console.log('ServiceWorker registration successful with scope: ', registration.scope);
     }, function(err) {
