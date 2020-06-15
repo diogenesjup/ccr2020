@@ -27,7 +27,7 @@
 </p>
 
 > Vídeo demonstrativo app 
-https://www.youtube.com/watch?v=Go5ALJ6f3Nc&feature=youtu.be
+https://youtu.be/TqLZizvBfcM
 
 <h2 align:"center">Conteúdo que vale pontos</h2>
 <p>Os caminhoneiros(as) ao consumirem conteúdo sobre segurança, dicas, alertas e outros assuntos, recebem pontos que podem ser trocados por vantagens, kits e descontos</p>
