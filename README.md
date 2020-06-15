@@ -26,29 +26,32 @@
   https://drive.google.com/file/d/1euCdijQrGwOswIvOyb-v-09hP8gAcEuj/view?usp=sharing
 </p>
 
+> Vídeo demonstrativo app 
+https://www.youtube.com/watch?v=Go5ALJ6f3Nc&feature=youtu.be
+
 <h2 align:"center">Conteúdo que vale pontos</h2>
 <p>Os caminhoneiros(as) ao consumirem conteúdo sobre segurança, dicas, alertas e outros assuntos, recebem pontos que podem ser trocados por vantagens, kits e descontos</p>
 
-![NOTRECHO CCR2020 - TIME365](https://servidorseguro.cloud/ccr2020/1.png | width=350)
+<p><img src="https://servidorseguro.cloud/ccr2020/1.png" width="300"></p>
 
-![NOTRECHO CCR2020 - TIME365](https://servidorseguro.cloud/ccr2020/2.png | width=350)
+<p><img src="https://servidorseguro.cloud/ccr2020/2.png" width="300"></p>
 
-![NOTRECHO CCR2020 - TIME365](https://servidorseguro.cloud/ccr2020/3.png | width=350)
+<p><img src="https://servidorseguro.cloud/ccr2020/3.png" width="300"></p>
 
-![NOTRECHO CCR2020 - TIME365](https://servidorseguro.cloud/ccr2020/4.png | width=350)
+<p><img src="https://servidorseguro.cloud/ccr2020/4.png" width="300"></p>
 
 <h2 align:"center">Comandos de voz para não sair do volante</h2>
 <p>Incriveis comando de voz para controlar o aplicativo, receber alertas e informações sobre os arredores do trajeto! Além de comando que acionam os serviços de emergência</p>
 
-![NOTRECHO CCR2020 - TIME365](https://servidorseguro.cloud/ccr2020/10.png | width=350)
+<p><img src="https://servidorseguro.cloud/ccr2020/10.png" width="300"></p>
 
-![NOTRECHO CCR2020 - TIME365](https://servidorseguro.cloud/ccr2020/11.png | width=350)
+<p><img src="https://servidorseguro.cloud/ccr2020/11.png" width="300"></p>
 
-![NOTRECHO CCR2020 - TIME365](https://servidorseguro.cloud/ccr2020/12.png | width=350)
+<p><img src="https://servidorseguro.cloud/ccr2020/12.png" width="300"></p>
 
-![NOTRECHO CCR2020 - TIME365](https://servidorseguro.cloud/ccr2020/13.png | width=350)
+<p><img src="https://servidorseguro.cloud/ccr2020/13.png" width="300"></p>
 
-![NOTRECHO CCR2020 - TIME365](https://servidorseguro.cloud/ccr2020/7.png | width=350)
+<p><img src="https://servidorseguro.cloud/ccr2020/7.png" width="300"></p>
 
 > Vídeo demonstrativo comando de voz
 https://www.youtube.com/watch?v=Go5ALJ6f3Nc&feature=youtu.be
@@ -57,7 +60,7 @@ https://www.youtube.com/watch?v=Go5ALJ6f3Nc&feature=youtu.be
 <h2 align:"center">Centanas de ofertas de frete</h2>
 <p>Veja anúncios de empresas e cooperativas, e escolha as mais vantajosas para a sua próxima viagem!</p>
 
-![NOTRECHO CCR2020 - TIME365](https://servidorseguro.cloud/ccr2020/8.png | width=350)
+<p><img src="https://servidorseguro.cloud/ccr2020/8.png" width="300"></p>
 
 
 
