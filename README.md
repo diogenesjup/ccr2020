@@ -3,7 +3,7 @@
 > TIME 365
 
 
-<h1 align:"center">Aplicativo NOTRECHO</h1>
+<h1 align:"center">Aplicativo NO TRECHO</h1>
 
 
 > Membros do projeto:
