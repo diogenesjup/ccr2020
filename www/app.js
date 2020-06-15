@@ -626,7 +626,7 @@ recognition.onresult = function(event) {
   }
 
 
-    if(transcript=="Desligar GPS" || transcript=="desligar gps" || transcript=="desligar GPS" || transcript=="desligar gepe esse" || transcript=="desativar GPS" ||) transcript=="Desativar GPS"{
+    if(transcript=="Desligar GPS" || transcript=="desligar gps" || transcript=="desligar GPS" || transcript=="desligar gepe esse" || transcript=="desativar GPS" || transcript=="Desativar GPS") {
       var audio = new Audio('assets/got-it-done.mp3');
       audio.play();
       $(".caixa-sugestoes-ouvindo span").html("<b>Entendi!</b> Estou processando sua solicitação de <b>desligar o GPS</b>...");
