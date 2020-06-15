@@ -16,6 +16,32 @@
   brunarennodon@gmail.com <br>
 </p>
 
+<h2>
+Transportando qualidade de vida para o caminhoneiro!
+</h2>
+
+<ul>
+<li> No trecho o caminhoneiro pode consumir conteúdos de saúde, segurança, comportamento e outros alertas das rodovia, além de um espaço chamado “ elas”, destinado às caminhoneiras.</li>
+
+<li> Estas mídias são disponibilizadas na forma de stories para facilitar a interação.</li>
+
+<li> Consumir estes conteúdos gera pontos para o caminhoneiro.</li>
+
+<li> Estes pontos podem ser trocados por produtos ou serviços em estabelecimentos parceiros.</li>
+
+<li> Empresas parceiras recebem direto de divulgar suas marcas e propagandas no Carrossel.</li>
+
+<li> Identifica no mapa pontos de interesse como paradas, locais de manutenção, alertas sobre acidentes e violência.</li>
+
+<li> Mecanismo de comandos de voz para que o caminhoneiro possa continuar dirigindo sem riscos.</li>
+
+<li> Mecanismo de busca por oportunidades de frete.</li>
+
+<li> É possivel filtrar pela categoria da carga , origem, destino e valor ofertado.</li>
+
+</ul>
+
+
 > URL PWA (recomendado para testes):
 <p>
   https://servidorseguro.cloud/ccr2020/www
@@ -63,4 +89,11 @@ https://www.youtube.com/watch?v=Go5ALJ6f3Nc&feature=youtu.be
 <p><img src="https://servidorseguro.cloud/ccr2020/8.png" width="300"></p>
 
 
+<h2>Tecnologias usadas</h2>
+<ul>
+  <li>HTML5</li>
+  <li>JavaScript (ecmascript 6)</li>
+  <li>Compilador Cordova PhoneGap</li>
+  <li>PHP</li>
+</ul>
 
