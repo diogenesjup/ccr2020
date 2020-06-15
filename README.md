@@ -1,4 +1,4 @@
-![NOTRECHO CCR2020 - TIME365](https://servidorseguro.cloud/ccr2020/title-hackathon.png)
+<img src="https://servidorseguro.cloud/ccr2020/title-hackathon.png">
 
 > TIME 365
 
