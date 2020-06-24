@@ -83,7 +83,7 @@ https://youtu.be/TqLZizvBfcM
 https://www.youtube.com/watch?v=Go5ALJ6f3Nc&feature=youtu.be
 
 
-<h2 align:"center">Centanas de ofertas de frete</h2>
+<h2 align:"center">Centenas de ofertas de frete</h2>
 <p>Veja anúncios de empresas e cooperativas, e escolha as mais vantajosas para a sua próxima viagem!</p>
 
 <p><img src="https://servidorseguro.cloud/ccr2020/8.png" width="300"></p>
